@@ -3,9 +3,9 @@
 //1. an action(info about what happened)
 //2. copy of current state
 
-function posts(state = [], action) {
-  console.log('in posts', state, action);
+function comments(state = [], action) {
+  console.log('in comments', state, action);
   return state;
 }
 
-export default posts;
+export default comments;
