@@ -4,7 +4,6 @@
 //2. copy of current state
 
 function comments(state = [], action) {
-  console.log('in comments', state, action);
   return state;
 }
 

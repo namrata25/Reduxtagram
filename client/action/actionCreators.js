@@ -1,8 +1,8 @@
 //increament
-export function increament(index) {
+export function increment(index) {
   return {
     //actions return object
-    type: 'INCREMENT',
+    type: 'INCREMENT_LIKES',
     index
   }
 }
