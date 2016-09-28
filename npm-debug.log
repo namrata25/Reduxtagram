@@ -1,0 +1,92 @@
+0 info it worked if it ends with ok
+1 verbose cli [ 'C:\\Program Files\\nodejs\\node.exe',
+1 verbose cli   'C:\\Program Files\\nodejs\\node_modules\\npm\\bin\\npm-cli.js',
+1 verbose cli   'install',
+1 verbose cli   'path,',
+1 verbose cli   'express' ]
+2 info using npm@3.10.6
+3 info using node@v4.2.3
+4 silly loadCurrentTree Starting
+5 silly install loadCurrentTree
+6 silly install readLocalPackageData
+7 silly fetchPackageMetaData path,
+8 silly fetchPackageMetaData express@^4.13.4
+9 silly fetchNamedPackageData express
+10 silly mapToRegistry name express
+11 silly mapToRegistry using default registry
+12 silly mapToRegistry registry http://10.150.17.176:8081/nexus/content/groups/npm-all/
+13 silly mapToRegistry data Result {
+13 silly mapToRegistry   raw: 'express',
+13 silly mapToRegistry   scope: null,
+13 silly mapToRegistry   escapedName: 'express',
+13 silly mapToRegistry   name: 'express',
+13 silly mapToRegistry   rawSpec: '',
+13 silly mapToRegistry   spec: 'latest',
+13 silly mapToRegistry   type: 'tag' }
+14 silly mapToRegistry uri http://10.150.17.176:8081/nexus/content/groups/npm-all/express
+15 silly fetchOtherPackageData path,
+16 silly cache add args [ 'path,', null ]
+17 verbose cache add spec path,
+18 silly cache add parsed spec Result {
+18 silly cache add   raw: 'path,',
+18 silly cache add   scope: null,
+18 silly cache add   escapedName: null,
+18 silly cache add   name: null,
+18 silly cache add   rawSpec: 'path,',
+18 silly cache add   spec: 'D:\\React\\React-Redux\\Reduxtagram\\path,',
+18 silly cache add   type: 'local' }
+19 error addLocal Could not install D:\React\React-Redux\Reduxtagram\path,
+20 silly fetchPackageMetaData Error: ENOENT: no such file or directory, open 'D:\React\React-Redux\Reduxtagram\path,'
+20 silly fetchPackageMetaData     at Error (native)
+20 silly fetchPackageMetaData  error for path, { [Error: ENOENT: no such file or directory, open 'D:\React\React-Redux\Reduxtagram\path,']
+20 silly fetchPackageMetaData   errno: -4058,
+20 silly fetchPackageMetaData   code: 'ENOENT',
+20 silly fetchPackageMetaData   syscall: 'open',
+20 silly fetchPackageMetaData   path: 'D:\\React\\React-Redux\\Reduxtagram\\path,' }
+21 verbose request uri http://10.150.17.176:8081/nexus/content/groups/npm-all/express
+22 verbose request no auth needed
+23 info attempt registry request try #1 at 2:17:51 PM
+24 verbose request id a624b6b6c23df2f6
+25 verbose lastModified Tue, 20 Sep 2016 06:28:18 GMT
+26 http request GET http://10.150.17.176:8081/nexus/content/groups/npm-all/express
+27 http 200 http://10.150.17.176:8081/nexus/content/groups/npm-all/express
+28 verbose headers { date: 'Mon, 26 Sep 2016 08:47:08 GMT',
+28 verbose headers   server: 'Nexus/2.12.0-01',
+28 verbose headers   'x-frame-options': 'SAMEORIGIN',
+28 verbose headers   'x-content-type-options': 'nosniff',
+28 verbose headers   'accept-ranges': 'bytes',
+28 verbose headers   'content-type': 'application/json',
+28 verbose headers   'last-modified': 'Mon, 26 Sep 2016 08:47:08 GMT',
+28 verbose headers   'content-length': '549964' }
+29 silly get cb [ 200,
+29 silly get   { date: 'Mon, 26 Sep 2016 08:47:08 GMT',
+29 silly get     server: 'Nexus/2.12.0-01',
+29 silly get     'x-frame-options': 'SAMEORIGIN',
+29 silly get     'x-content-type-options': 'nosniff',
+29 silly get     'accept-ranges': 'bytes',
+29 silly get     'content-type': 'application/json',
+29 silly get     'last-modified': 'Mon, 26 Sep 2016 08:47:08 GMT',
+29 silly get     'content-length': '549964' } ]
+30 verbose get saving express to C:\Users\ngup75\AppData\Roaming\npm-cache\10.150.17.176_8081\nexus\content\groups\npm-all\express\.cache.json
+31 verbose correctMkdir C:\Users\ngup75\AppData\Roaming\npm-cache correctMkdir not in flight; initializing
+32 silly rollbackFailedOptional Starting
+33 silly rollbackFailedOptional Finishing
+34 silly runTopLevelLifecycles Starting
+35 silly runTopLevelLifecycles Finishing
+36 silly install printInstalled
+37 verbose stack Error: ENOENT: no such file or directory, open 'D:\React\React-Redux\Reduxtagram\path,'
+37 verbose stack     at Error (native)
+38 verbose cwd D:\React\React-Redux\Reduxtagram
+39 error Windows_NT 6.1.7601
+40 error argv "C:\\Program Files\\nodejs\\node.exe" "C:\\Program Files\\nodejs\\node_modules\\npm\\bin\\npm-cli.js" "install" "path," "express"
+41 error node v4.2.3
+42 error npm  v3.10.6
+43 error path D:\React\React-Redux\Reduxtagram\path,
+44 error code ENOENT
+45 error errno -4058
+46 error syscall open
+47 error enoent ENOENT: no such file or directory, open 'D:\React\React-Redux\Reduxtagram\path,'
+48 error enoent ENOENT: no such file or directory, open 'D:\React\React-Redux\Reduxtagram\path,'
+48 error enoent This is most likely not a problem with npm itself
+48 error enoent and is related to npm not being able to find a file.
+49 verbose exit [ -4058, true ]
